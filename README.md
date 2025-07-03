@@ -1,7 +1,10 @@
 # Probe Holographic Superconductor Hydrodynamics
 
-This introduces two numerical methods to calculate the hydrodynamics of probe superconductors
-as performed in https://arxiv.org/pdf/2212.10410 and https://arxiv.org/pdf/2312.08243.
+This introduces two numerical methods to calculate the hydrodynamics of probe holographic
+superconductors as performed in https://arxiv.org/pdf/2212.10410 and 
+https://arxiv.org/pdf/2312.08243. Only the matching to the superfluid velocity is shown. To
+match the attenuations, we must calculate the response functions which is easily adapted
+to the code provided.
 
 The first method is a Mathematica notebook. This is fast and adaptable but requires a 
 Mathematica license to use.
@@ -12,4 +15,5 @@ up, this notebook first calculates things using double floating point complex
 numbers with NumPy and SciPy and then refines the calculations to high precision using
 mpmath.
 
-To use the python notebook, make sure that sympy, numpy, scipy, mathmp, and gmpy2 are installed.
+To use the python notebook, make sure that sympy, numpy, scipy, mathmp, and gmpy2 are 
+installed.
